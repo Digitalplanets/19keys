@@ -9,7 +9,7 @@ import Booking from './pages/Booking';
 const App = () => {
   return (
     <Routes>
-      <Route path='/19keys' element={<PageReveal />} />
+      <Route path='/https://digitalplanets.github.io/19keys/' element={<PageReveal />} />
       <Route path='/home' element={<Home />} />
       <Route path='/expertise' element={<Expertise />} />
       <Route path='/booking' element={<Booking />} />
