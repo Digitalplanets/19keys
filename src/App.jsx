@@ -9,7 +9,7 @@ const App = () => {
   return (
     <Routes>
       <Route path='/' element={<PageReveal />} />
-      <Route path='https://digitalplanets.github.io/19keys/home' element={<Home />} />
+      <Route path='/home' element={<Home />} />
       <Route path='https://digitalplanets.github.io/19keys/expertise' element={<Expertise />} />
       <Route path='https://digitalplanets.github.io/19keys/booking' element={<Booking />} />
     </Routes>
